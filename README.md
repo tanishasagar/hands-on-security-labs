@@ -1,23 +1,29 @@
 # hands-on-security-labs
 
-Writeups from security labs I've worked through, documenting the vulnerability, the exact payload used, how it manipulates the underlying query or logic, and the fix a developer would apply.
+Writeups from security labs I've worked through — the vulnerability, the exact payload, how it manipulates the underlying query or logic, and the fix a developer would apply.
 
-Portfolio: https://tanishasagar.github.io
+**Portfolio:** [tanishasagar.github.io](https://tanishasagar.github.io)
 
-## Contents
+---
 
-### SQL Injection
-| Lab | Status |
-|---|---|
-| [WHERE clause injection — retrieving hidden data](./sqli/lab1-where-clause.md) | Done |
-| [Authentication bypass via injection](./sqli/lab2-login-bypass.md) | Done |
-| [UNION attack — determining column count](./sqli/lab3-union-columns.md) | Done |
+## SQL Injection
 
-### Cross-Site Scripting (XSS)
-_In progress_
+- [WHERE clause injection — retrieving hidden data](./sqli/lab1-where-clause.md)
+- [Authentication bypass via injection](./sqli/lab2-login-bypass.md)
+- [UNION attack — determining column count](./sqli/lab3-union-columns.md)
 
-### IDOR
-_In progress_
+## Cross-Site Scripting (XSS)
 
-### Blue Team
-_In progress_
+More labs added as I work through them.
+
+## IDOR
+
+More labs added as I work through them.
+
+## Blue Team
+
+More labs added as I work through them.
+
+---
+
+*Delhi NCR · building toward VAPT / SOC roles*
