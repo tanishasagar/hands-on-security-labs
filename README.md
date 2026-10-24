@@ -1,15 +1,9 @@
-<div align="center">
-
 # Hands-on cybersecurity labs
 
 Writeups from security labs I've worked through — the vulnerability, the exact payload, how it manipulates the underlying query or logic, and the fix a developer would apply.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-tanishasagar.github.io-181717?style=flat-square&logo=github)](https://tanishasagar.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Tanisha_Sagar-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/tanishasagar20)
-
-</div>
-
-<br>
+[![GitHub Pages](https://img.shields.io/badge/-tanishasagar.github.io-181717?style=flat-square&logo=github&logoColor=white)](https://tanishasagar.github.io)
+[![LinkedIn](https://img.shields.io/badge/-Tanisha_Sagar-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/tanishasagar20)
 
 ## SQL Injection
 
@@ -28,9 +22,3 @@ More labs added as I work through them.
 ## Blue Team
 
 More labs added as I work through them.
-
-<br>
-
-<div align="center">
-<sub>Delhi NCR · building toward VAPT / SOC roles</sub>
-</div>
