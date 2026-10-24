@@ -19,6 +19,4 @@ More labs added as I work through them.
 
 More labs added as I work through them.
 
-## Blue Team
 
-More labs added as I work through them.
