@@ -1,4 +1,4 @@
-# hands-on-security-labs
+# Hands-on Cybersecurity labs
 
 Writeups of hands-on security labs I've worked through — SQLi, XSS, IDOR, and more as I go. Includes what I did, the payloads I used, why they worked, and screenshots to prove it.
 
