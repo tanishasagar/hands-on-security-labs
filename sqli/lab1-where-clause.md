@@ -23,3 +23,34 @@ SELECT * FROM products WHERE category = 'Gifts' AND released = 1
 ```
 
 ## Payload
+‘ OR 1=1--
+
+**After the payload**, the query becomes:
+
+```sql
+SELECT * FROM products WHERE category = 'Gifts' OR 1=1--' AND released = 1
+```
+
+## How it works
+
+- The `'` closes the category string early, ending it right after `Gifts`.
+- `OR 1=1` is appended as a second condition. Since `1=1` is always true, the WHERE clause evaluates to true for every row in the table, regardless of category.
+- `--` comments out everything that follows, including the trailing `' AND released = 1`. This removes the release-status filter entirely, so unreleased/hidden products are also returned.
+
+The result: the query returns every product in the table, including ones that were never meant to be visible.
+
+## Proof
+
+![Payload in Burp Repeater](./screenshots/lab1-payload.png)
+![Response showing all products returned](./screenshots/lab1-response.png)
+![Lab marked as solved](./screenshots/lab1-solved.png)
+
+## Fix
+
+Use parameterized queries (prepared statements), where the query structure is fixed in advance and user input is passed in separately as data, never concatenated into the query string:
+
+```sql
+SELECT * FROM products WHERE category = ? AND released = 1
+```
+
+With this approach, input like `' OR 1=1--` is treated as a literal string to search for, not as part of the query logic, so the injection has no effect.
