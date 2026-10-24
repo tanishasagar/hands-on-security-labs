@@ -8,7 +8,7 @@ Writeups from security labs I've worked through — the vulnerability, the exact
 ## SQL Injection
 
 - [WHERE clause injection — retrieving hidden data](./sqli/lab1-where-clause.md)
-- [Authentication bypass via injection](./sqli/lab2-login-bypass.md)
+- [Login bypass via injection](./sqli/lab2-login-bypass.md)
 - [UNION attack — determining column count](./sqli/lab3-union-columns.md)
 
 ## Cross-Site Scripting (XSS)
