@@ -41,8 +41,6 @@ The result: the query returns every product in the table, including ones that we
 
 ## Proof
 
-## Proof
-
 <details>
 <summary>Click to view screenshots</summary>
 
