@@ -1,33 +1,23 @@
-<div align="center">
+# hands-on-security-labs
 
-# 🔐 Hands-on security labs
+Writeups from security labs I've worked through, documenting the vulnerability, the exact payload used, how it manipulates the underlying query or logic, and the fix a developer would apply.
 
-Writeups of hands-on security labs I've worked through — SQLi, XSS, IDOR, and more as I go.
-Includes what I did, the payloads I used, why they worked, and screenshots to prove it.
+Portfolio: https://tanishasagar.github.io
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-tanishasagar.github.io-blue)](https://tanishasagar.github.io)
-![Status](https://img.shields.io/badge/status-in%20progress-yellow)
-
-</div>
-
----
-
-## 📂 Contents
-
-| Category | Labs Done | Status |
-|---|---|---|
-| 💉 SQL Injection | 3 | ✅ |
-| 🧬 XSS | 0 | 🔜 |
-| 🔓 IDOR | 0 | 🔜 |
-| 🛡️ Blue Team | 0 | 🔜 |
+## Contents
 
 ### SQL Injection
-- [WHERE clause — retrieving hidden data](./sqli/lab1-where-clause.md)
-- [Login bypass](./sqli/lab2-login-bypass.md)
-- [UNION attack — determining column count](./sqli/lab3-union-columns.md)
+| Lab | Status |
+|---|---|
+| [WHERE clause injection — retrieving hidden data](./sqli/lab1-where-clause.md) | Done |
+| [Authentication bypass via injection](./sqli/lab2-login-bypass.md) | Done |
+| [UNION attack — determining column count](./sqli/lab3-union-columns.md) | Done |
 
----
+### Cross-Site Scripting (XSS)
+_In progress_
 
-<div align="center">
-<sub>Built while studying for VAPT/SOC roles · Delhi NCR</sub>
-</div>
+### IDOR
+_In progress_
+
+### Blue Team
+_In progress_
