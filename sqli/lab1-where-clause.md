@@ -41,10 +41,17 @@ The result: the query returns every product in the table, including ones that we
 
 ## Proof
 
-![Home page](./screenshots/lab1-home.png)
-![Payload in Repeater](./screenshots/lab1-payload.png)
-![Result showing all products](./screenshots/lab1-result.png)
+## Proof
+
+<details>
+<summary>Click to view screenshots</summary>
+
+![Starting point](./screenshots/lab1-home.png)
+![Payload in Burp Repeater](./screenshots/lab1-payload.png)
+![Result showing all products returned](./screenshots/lab1-result.png)
 ![Lab marked as solved](./screenshots/lab1-solved.png)
+
+</details>
 
 ## Fix
 
