@@ -23,8 +23,9 @@ SELECT * FROM users WHERE username = 'admin' AND password = 'ab123'
 ```
 
 ## Payload
+```sql
 admin’--
-
+```
 Entered in the **username** field. The password field can contain anything, it's never evaluated.
 
 **After the payload**, the query becomes:
