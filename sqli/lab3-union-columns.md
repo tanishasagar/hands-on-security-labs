@@ -60,12 +60,13 @@ Both techniques independently confirmed the same column count, which is the firs
 <details>
 <summary>Click to view screenshots</summary>
 
-![Starting point](./screenshots/lab1-home.png)
-![Payload in Burp Repeater](./screenshots/lab1-payload.png)
-![Result showing all products returned](./screenshots/lab1-result.png)
-![Lab marked as solved](./screenshots/lab1-solved.png)
+![ORDER BY 4 / mismatched UNION causing an internal server error](./screenshots/lab3-error.png)
+![UNION SELECT with 3 NULLs rendering successfully, confirming the column count](./screenshots/lab3-union.png)
+![Lab marked as solved](./screenshots/lab3-solved.png)
 
 </details>
+
+
 
 ## Next step
 
