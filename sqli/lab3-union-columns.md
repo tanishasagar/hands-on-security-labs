@@ -33,7 +33,7 @@ For a `UNION` to work, the injected `SELECT` must return the **same number of co
  'UNION SELECT NULL,NULL,NULL--
 ```
 
-The first two caused errors (column count mismatch).  ```sql 'UNION SELECT NULL,NULL,NULL-- ``` ran without error and added a new row of three `NULL` values to the result set, confirming the same result: **3 columns**.
+The first two caused errors (column count mismatch).  ``` 'UNION SELECT NULL,NULL,NULL-- ``` ran without error and added a new row of three `NULL` values to the result set, confirming the same result: **3 columns**.
 
 ## How it works
 
