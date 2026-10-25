@@ -63,6 +63,7 @@ This was simpler than editing and resending from Repeater, since the browser han
 ![Lab solved, logged in as administrator](./screenshots/lab2-solved.png)
 
 </details>
+
 ## Fix
 
 Use parameterized queries (prepared statements):
