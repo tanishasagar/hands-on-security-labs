@@ -55,10 +55,9 @@ This was simpler than editing and resending from Repeater, since the browser han
 
 ## Proof
 
-![Dummy login intercepted in Burp](./screenshots/lab2-intercept.png)
-![Payload edited in the username field](./screenshots/lab2-payload.png)
-![Logged in as administrator](./screenshots/lab2-solved.png)
-
+![Login page before exploitation](./screenshots/lab2-login.png)
+![Payload edited in Burp's intercepted request](./screenshots/lab2-payload.png)
+![Lab solved, logged in as administrator](./screenshots/lab2-solved.png)
 ## Fix
 
 Use parameterized queries (prepared statements):
