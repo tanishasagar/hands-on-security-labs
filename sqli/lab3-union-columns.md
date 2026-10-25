@@ -57,9 +57,9 @@ Both techniques independently confirmed the same column count, which is the firs
 
 ## Proof
 
-![ORDER BY 4 causing an error, confirming 3 columns](./screenshots/lab3-orderby.png)
-![UNION SELECT with 3 NULLs succeeding](./screenshots/lab3-union.png)
-![Lab progress / solved state](./screenshots/lab3-solved.png)
+![ORDER BY 4 / mismatched UNION causing an internal server error](./screenshots/lab3-error.png)
+![UNION SELECT with 3 NULLs rendering successfully, confirming the column count](./screenshots/lab3-union.png)
+![Lab marked as solved](./screenshots/lab3-solved.png)
 
 ## Next step
 
