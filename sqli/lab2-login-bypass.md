@@ -55,9 +55,14 @@ This was simpler than editing and resending from Repeater, since the browser han
 
 ## Proof
 
+<details>
+<summary>Click to view screenshots</summary>
+
 ![Login page before exploitation](./screenshots/lab2-login.png)
 ![Payload edited in Burp's intercepted request](./screenshots/lab2-payload.png)
 ![Lab solved, logged in as administrator](./screenshots/lab2-solved.png)
+
+</details>
 ## Fix
 
 Use parameterized queries (prepared statements):
