@@ -41,3 +41,8 @@ Knowing which column accepts text means any string pulled from the database, suc
 ![Lab marked as solved](./screenshots/lab4-solved.png)
 
 </details>
+
+## Next step
+
+This lab only establishes the groundwork, column count and column type are now both known. The actual extraction of real data (usernames, passwords) using this information is covered in [Retrieving data from other tables](./lab5-retrieve-data.md).
+
