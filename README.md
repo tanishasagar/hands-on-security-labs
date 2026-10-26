@@ -11,6 +11,8 @@ Writeups from security labs I've worked through — the vulnerability, the exact
 - [Login bypass via injection](./sqli/lab2-login-bypass.md)
 - [UNION attack — determining column count](./sqli/lab3-union-columns.md)
 - [UNION attack — finding a column with text](./sqli/lab4-column-text-type.md)
+- [UNION attack — retrieving data from other tables](./sqli/lab5-retrieve-data.md)
+- [UNION attack — retrieving multiple values in a single column](./sqli/lab6-concatenation.md)
 
 ## Cross-Site Scripting (XSS)
 
