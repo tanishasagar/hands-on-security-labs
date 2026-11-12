@@ -102,7 +102,7 @@ Hiding query results and error messages doesn't fix the underlying injection fla
 ![Confirming users table exists](./screenshots/lab9-userstable.png)
 ![Confirming password length is exactly 20](./screenshots/lab9-length.png)
 ![Burp Intruder extracting password characters with payload markers](./screenshots/lab9-intruder.png)
-![Lab solved, logged in as administrator](./screenshots/lab9-solved.png)
+
 
 </details>
 
