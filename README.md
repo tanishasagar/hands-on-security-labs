@@ -15,6 +15,7 @@ Writeups from security labs I've worked through — the vulnerability, the exact
 - [UNION attack — retrieving multiple values in a single column](./sqli/lab6-concatenation.md)
 - [Querying the database type and version](./sqli/lab7-database-version.md)
 - [Listing the database contents (non-Oracle)](./sqli/lab8-listing-contents.md)
+- [Blind SQL injection with conditional responses](./sqli/lab9-blind-conditional-responses.md)
 
 ## Cross-Site Scripting (XSS)
 
