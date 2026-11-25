@@ -16,6 +16,7 @@ Writeups from security labs I've worked through — the vulnerability, the exact
 - [Querying the database type and version](./sqli/lab7-database-version.md)
 - [Listing the database contents (non-Oracle)](./sqli/lab8-listing-contents.md)
 - [Blind SQL injection with conditional responses](./sqli/lab9-blind-conditional-responses.md)
+- [Blind SQL injection with conditional errors](./sqli/lab10-blind-conditional-errors.md)
 
 ## Cross-Site Scripting (XSS)
 
