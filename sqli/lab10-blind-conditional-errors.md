@@ -99,6 +99,7 @@ Logged in as `administrator` using this password. Lab solved.
 ![Confirming the vulnerability — error on true, no error on false](./screenshots/lab10-vulncheck.png)
 ![Confirming the users table exists](./screenshots/lab10-userstable.png)
 ![Confirming the password length is 20 characters](./screenshots/lab10-length.png)
+![Burp Intruder cluster bomb attack, flagged rows show where the error triggered](./screenshots/lab10-intruder.png)
 ![Lab solved, logged in as administrator](./screenshots/lab10-solved.png)
 
 </details>
